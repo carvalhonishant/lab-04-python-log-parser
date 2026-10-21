@@ -1,0 +1,6 @@
+# Known bad IPs (threat intel). One IP per line, # for comments.
+# In a real setup this would come from a feed like AbuseIPDB, AlienVault OTX,
+# or an internal blocklist. Kept as a static file here for the lab.
+203.0.113.45
+198.51.100.23
+192.0.2.77
