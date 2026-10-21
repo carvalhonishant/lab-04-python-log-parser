@@ -2,7 +2,6 @@
 
 I wrote a Python tool that reads an SSH auth log and raises security findings: brute force attempts, likely breaches, and matches against a known bad IP list. It is the same detection I built in Splunk for Lab 03, rebuilt in code, with a threat intel check added on top. Run against the sample log it flags one external IP that brute forced its way in and also sits on the bad IP list.
 
-I am an IT support engineer moving into security. I did this one to show I can write the detection logic myself, not only inside a SIEM, and to practice the Python that security automation relies on.
 
 ## What it does
 
